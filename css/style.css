@@ -15,7 +15,6 @@ h2 {
     font-size: 30px;
     color: #0D0D0D;
 }
-
 p {
     font-size: 24px;
     padding: 10px 0px 0px 10px;
@@ -27,6 +26,7 @@ img {
     width: 250 px;
     display: block;
     margin: 0 auto;
+    border: #fff 10px dashed;
 }
 
 div {
@@ -84,9 +84,12 @@ footer {
     border-style: solid;
     border-width: 5px;
 }
-p.footer{
+footer p {
     padding: 15px 0px 15px 15px;
     text-align: right;
+    font-size: 20px;
 }
 
-
+.blue h2 {
+    color: #C4C4C4;
+}
